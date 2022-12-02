@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 ////Handling GET request
 app.get('/retorno', (req, res) => {
-    res.send('Nodejs é facil. ')
+    res.send('Nodejs é facil.')
     res.end()
 })
     
